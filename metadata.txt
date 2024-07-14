@@ -1,0 +1,47 @@
+# This file contains metadata for your plugin.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=Inteligência Geográfica
+qgisMinimumVersion=3.0
+description=Plugin para auxiliar tomada de decisão quanto a localização de empreendimentos levando em conta sua localização espacial.
+version=0.1
+author=R. A. Szeliga
+email=rafaelsz@gmail.com
+
+about=O plugin tem como finalidade prover auxílio à tomada de decisão quanto a localização de empreendimentos ou equipamentos urbanos levando em conta sua localização espacial e uma dada área de influência. A análise leva em consideração a existência de outros elementos do mesmo tipo ao fornecer a contagem desses elementos dentro da área de influência especificada.
+
+tracker=https://github.com/raszeliga/inteligenciageografica
+repository=https://github.com/raszeliga/inteligenciageografica
+# End of mandatory metadata
+
+# Recommended items:
+
+hasProcessingProvider=no
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=python
+
+homepage=https://github.com/raszeliga/inteligenciageografica
+category=Plugins
+icon=icon.png
+# experimental flag
+experimental=True
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
+# Since QGIS 3.8, a comma separated list of plugins to be installed
+# (or upgraded) can be specified.
+# Check the documentation for more information.
+# plugin_dependencies=
+
+Category of the plugin: Raster, Vector, Database or Web
+# category=
+
+# If the plugin can run on QGIS Server.
+server=False
+
